@@ -5,6 +5,11 @@
     --therdFont: "Satisfy", sans-serif;
 }
 
+:root{
+    --mainColor: #ffb03b;
+    --secondaryColor: #433f39
+}
+
 body {
     height: 5000px;
 }
@@ -19,6 +24,7 @@ a{
     padding: 20px 0;
     font-family: var(--FirstFont);
     font-size: 14px;
+    z-index: 1200;
 }
 
 .icons i {
@@ -47,6 +53,7 @@ a{
 
 .navbar{
     background-color: rgb(41, 128, 0);
+    z-index: 1300;
 }
 
 .navbar .navbar-brand{
@@ -86,8 +93,127 @@ a{
     color: var(--mainColor);
 }
 
-
-
 /* End Navbar */
+
+
+/* Start Menu */
+
+.menu{
+    padding: 100px 0;
+}
+
+.top-menu h2{
+    font-family: var(--FirstFont);
+    font-size: 13px;
+    color: var(--mainColor);
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 9999px;
+    background: #faefd2;
+    padding: 8px 20px;
+}
+
+.top-menu .headline{
+    display: block;
+    font-family: var(--therdFont);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--secondaryColor);
+    margin: 10px 0 0 0;
+}
+
+.top-menu .word{
+    font-family: var(--therdFont);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--mainColor);
+    margin: 10px 0 0 0;
+}
+
+.nav-tabs{
+    border-bottom:0; 
+}
+
+.nav-tabs .nav-link{
+  border:0;
+}
+
+.menu .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    color: var(--secondaryColor);
+    font-family: var(--therdFont);
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 8px 12px 10px 12px;
+}
+
+.menu .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: var(--mainColor);
+}
+
+.card{
+    max-width: 600px;
+    display:flex;
+    flex-direction: row;
+}
+
+.card img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid #d3d3d3;
+}
+
+.card-body{
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content:space-between;
+  width:100%;
+}
+
+.description{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:100%;
+}
+
+.description .title{
+    font-family: var(--FirstFont);
+    font-size: 16px;
+    color: var(--secondaryColor);
+    padding-right: 10px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.description .title:hover{
+    color: var(--mainColor);
+}
+
+.description .price{
+    font-family: var(--FirstFont);
+    color: var(--mainColor);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+.card-text{
+    text-align: start;
+    font-family: var(--navFont);
+    font-style: italic;
+    font-size: 14px;
+    color: #8f8d8d;
+}
+
+
+
+/* End Menu */
+
 
 
