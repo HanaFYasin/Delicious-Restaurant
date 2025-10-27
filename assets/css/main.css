@@ -270,6 +270,181 @@ a {
 /*End Hero*/
 
 
+/* Start About */
+
+#about {
+    padding: 60px 0 50px 0;
+    background: #fffaf3;
+}
+
+#about .img-wrap {
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, .08);
+}
+
+#about .img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+#about .content h3 {
+    font-family: var(--therdFont);
+    color: var(--secondaryColor);
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#about .content p {
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+    font-family: var(--FirstFont);
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+#about .content ul {
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+    font-family: var(--FirstFont);
+    list-style: none;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+#about .content ul li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+#about .content ul li i {
+    color: var(--mainColor);
+    margin-top: 4px;
+}
+
+@media (max-width: 767px) {
+    #about {
+        padding: 40px 0;
+    }
+
+    #about .content p,
+    #about .content ul {
+        font-size: 15px;
+    }
+}
+
+/* End About */
+
+
+/* Start Why Us */
+
+.Why-Us {
+    padding: 60px 0;
+}
+
+.top-WhyUs {
+    margin-bottom: 50px;
+}
+
+.top-WhyUs h2 {
+    font-family: var(--FirstFont);
+    font-size: 13px;
+    color: var(--mainColor);
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 9999px;
+    background: #faefd2;
+    padding: 8px 20px;
+    margin: 0;
+}
+
+.top-WhyUs .headline {
+    display: block;
+    font-family: var(--therdFont);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--secondaryColor);
+    margin-top: 10px;
+}
+
+.top-WhyUs .word {
+    font-family: var(--therdFont);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--mainColor);
+    margin: 10px 0 0 0;
+}
+
+.Why-Us .card {
+    border-radius: 0;
+    background: #f7f7f7
+}
+
+.Why-Us .card-WhyUs {
+    padding: 30px 30px 70px 30px;
+    transition: all ease-in-out 0.3s;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.Why-Us .card-WhyUs span {
+    font-family: var(--FirstFont);
+    color: var(--mainColor);
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    transition: transform 0.5s ease;
+    transform: translateY(0);
+}
+
+.Why-Us .card-WhyUs a {
+    font-family: var(--therdFont);
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    padding: 0;
+    margin: 20px 0;
+    color: var(--secondaryColor);
+    transition: transform 0.7s ease;
+    transform: translateY(0);
+}
+
+.Why-Us .card-WhyUs p {
+    font-family: var(--FirstFont);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 0;
+    transition: transform 0.5s ease;
+    transform: translateY(0);
+}
+
+.Why-Us .card-WhyUs:hover {
+    background: var(--mainColor);
+
+}
+
+.Why-Us .card-WhyUs:hover span,
+.Why-Us .card-WhyUs:hover a,
+.Why-Us .card-WhyUs:hover p {
+    color: white;
+    transform: translateY(-10px);
+}
+
+
+/* End Why Us */
+
+
 /* Start Menu */
 
 .menu {
