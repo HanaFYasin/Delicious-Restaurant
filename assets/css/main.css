@@ -380,7 +380,6 @@ a {
     font-weight: 700;
     font-size: 32px;
     color: var(--mainColor);
-    margin: 10px 0 0 0;
 }
 
 .Why-Us .card {
@@ -476,7 +475,6 @@ a {
     font-weight: 700;
     font-size: 32px;
     color: var(--mainColor);
-    margin: 10px 0 0 0;
 }
 
 .nav-tabs {
@@ -562,5 +560,54 @@ a {
     color: #8f8d8d;
 }
 
-
 /* End Menu */
+
+/* Start Gallery */
+
+.gallery {
+    padding: 60px 0;
+}
+
+.top-gallery h2 {
+    text-transform: uppercase;
+    font-family: var(--FirstFont);
+    font-size: 13px;
+    color: var(--mainColor);
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 9999px;
+    background: #faefd2;
+    padding: 8px 20px;
+}
+
+.top-gallery .headline {
+    display: block;
+    font-family: var(--therdFont);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--secondaryColor);
+    margin: 10px 0 50px 0;
+}
+
+.top-gallery .word {
+    font-family: var(--therdFont);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--mainColor);
+}
+
+.gallery .gallery-item {
+    overflow: hidden;
+}
+
+.gallery .gallery-item img {
+    transition: all ease-in-out 0.5s;
+}
+
+.gallery .gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+/* End Gallery */
+
+
