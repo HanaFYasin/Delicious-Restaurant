@@ -562,6 +562,108 @@ a {
 
 /* End Menu */
 
+
+/* Start Events */
+
+.events {
+    background: url('../img/Events/events-bg.webp') center/cover no-repeat;
+    color: white;
+    z-index: 1;
+    padding: 80px 0;
+    position: relative;
+}
+
+.events:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    inset: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.events .container {
+    position: relative;
+    z-index: 1;
+}
+
+#carouselEvents .carousel-indicators {
+    bottom: -60px;
+}
+
+#carouselEvents [data-bs-target] {
+    background-color: #4e5355;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+#carouselEvents [data-bs-target].active {
+    background-color: var(--mainColor);
+}
+
+.events .img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    filter: brightness(1);
+}
+
+.events .content h3 {
+    font-family: var(--therdFont);
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.events .content .price {
+    font-size: 26px;
+    font-family: var(--FirstFont);
+    font-weight: 700;
+    border-bottom: 2px solid var(--mainColor);
+}
+
+.events .content p {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    font-family: var(--FirstFont);
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.events .content ul {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--FirstFont);
+    list-style: none;
+    padding: 0;
+}
+
+.events .content ul li {
+    display: flex;
+    gap: 4px;
+    align-items: flex-start;
+    padding-bottom: 15px;
+    text-align: start;
+}
+
+.events .content ul li i {
+    font-size: 20px;
+    color: var(--mainColor);
+}
+
+.events .content ul li span {
+    font-family: var(--FirstFont);
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+/* End Events */
+
+
+
 /* Start Gallery */
 
 .gallery {
@@ -829,3 +931,5 @@ a {
 }
 
 /* End Testimonials */
+
+
