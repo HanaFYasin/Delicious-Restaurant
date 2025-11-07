@@ -384,7 +384,7 @@ a {
 
 .Why-Us .card {
     border-radius: 0;
-    background: #f7f7f7
+    background: #f7f7f7;
 }
 
 .Why-Us .card-WhyUs {
@@ -477,11 +477,11 @@ a {
     color: var(--mainColor);
 }
 
-.nav-tabs {
+.menu .nav-tabs {
     border-bottom: 0;
 }
 
-.nav-tabs .nav-link {
+.menu .nav-tabs .nav-link {
     border: 0;
 }
 
@@ -501,13 +501,13 @@ a {
     color: var(--mainColor);
 }
 
-.card {
+.menu .card {
     max-width: 600px;
     display: flex;
     flex-direction: row;
 }
 
-.card img {
+.menu .card img {
     width: 80px;
     height: 80px;
     object-fit: cover;
@@ -516,7 +516,7 @@ a {
     border: 5px solid #d3d3d3;
 }
 
-.card-body {
+.menu .card-body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -524,14 +524,14 @@ a {
     width: 100%;
 }
 
-.description {
+.menu .description {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
 
-.description .title {
+.menu .description .title {
     font-family: var(--FirstFont);
     font-size: 16px;
     color: var(--secondaryColor);
@@ -540,11 +540,11 @@ a {
     transition: 0.3s;
 }
 
-.description .title:hover {
+.menu .description .title:hover {
     color: var(--mainColor);
 }
 
-.description .price {
+.menu .description .price {
     font-family: var(--FirstFont);
     color: var(--mainColor);
     font-size: 16px;
@@ -552,7 +552,7 @@ a {
     padding: 0 10px;
 }
 
-.card-text {
+.menu .card-text {
     text-align: start;
     font-family: var(--navFont);
     font-style: italic;
@@ -561,6 +561,122 @@ a {
 }
 
 /* End Menu */
+
+
+/* Start Specials */
+
+.specials {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.top-specials h2 {
+    text-transform: uppercase;
+    font-family: var(--FirstFont);
+    font-size: 13px;
+    color: var(--mainColor);
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 9999px;
+    background: #faefd2;
+    padding: 8px 20px;
+}
+
+.top-specials .headline {
+    display: block;
+    font-family: var(--therdFont);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--secondaryColor);
+    margin: 10px 0 50px 0;
+}
+
+.top-specials .word {
+    font-family: var(--therdFont);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--mainColor);
+}
+
+.specials .nav-link {
+    border: 0;
+    border-radius: 0;
+    color: #444444;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--FirstFont);
+    text-align: start;
+    transition: .3s;
+    padding: 12px 15px 12px 0;
+}
+
+.specials .nav-link:hover {
+    color: var(--mainColor);
+}
+
+.specials .nav-link.active {
+    color: var(--mainColor);
+    background-color: white;
+}
+
+.specials .details h3 {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: var(--therdFont);
+    margin-bottom: 20px;
+    color: #444444;
+}
+
+.specials .details p {
+    color: #646464;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--FirstFont);
+}
+
+@media (max-width: 992px) {
+    .specials .nav {
+        border: 0;
+        padding-bottom: 20px;
+    }
+
+    .specials .details h3 {
+        font-size: 22px;
+        margin-bottom: 12px;
+        text-align: start;
+    }
+
+    .specials .details p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .specials .details h3 {
+        font-size: 20px;
+    }
+
+    .specials .details p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .specials .details h3 {
+        font-size: 19px;
+    }
+
+    .specials .details p {
+        font-size: 14px;
+    }
+
+}
+
+
+
+/* End Specials */
 
 
 /* Start Events */
@@ -846,7 +962,6 @@ a {
     background: rgba(0, 0, 0, 0.5);
     inset: 0;
     position: absolute;
-    inset: 0;
     z-index: 0;
 }
 
@@ -919,17 +1034,15 @@ a {
     bottom: -60px;
 }
 
-.carousel-indicators [data-bs-target] {
+.testimonials .carousel-indicators [data-bs-target] {
     background-color: #4e5355;
     width: 12px;
     height: 12px;
     border-radius: 50%;
 }
 
-.carousel-indicators .active {
+.testimonials .carousel-indicators .active {
     background-color: white;
 }
 
 /* End Testimonials */
-
-
