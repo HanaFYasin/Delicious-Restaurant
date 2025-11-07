@@ -1263,3 +1263,129 @@ a {
 }
 
 /* End Contact */
+
+
+/* Start Footer */
+
+.footer {
+    background: #1e160d;
+    color: white;
+    padding: 40px 0 0 0;
+}
+
+.footer .footer-item {
+    color: white;
+    align-items: flex-start;
+}
+
+.footer .footer-item .icon {
+    color: var(--mainColor);
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+.footer h4 {
+    font-family: var(--therdFont);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.footer .address address {
+    margin-bottom: 0px;
+    font-family: var(--FirstFont);
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.footer strong {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer .footer-item span {
+    font-family: var(--FirstFont);
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffe9e8;
+    margin-bottom: 3px;
+}
+
+.footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #898580;
+    font-size: 16px;
+    color: #898580;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+    color: var(--mainColor);
+    background: #ffb03b33;
+    border-color: var(--mainColor);
+}
+
+.footer-copyright {
+    border: 0;
+    height: 1px;
+    background: #686056;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 14px;
+    color: #ffe9e8;
+}
+
+.footer .copyright p {
+    margin-bottom: 0;
+}
+
+.footer .copyright .sitename {
+    color: white;
+}
+
+.footer .Websitename {
+    margin-top: 1px;
+    font-size: 13px;
+}
+
+.footer .Websitename a {
+    color: var(--mainColor);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer .Websitename a:hover {
+    color: #c48a35;
+}
+
+@media (max-width: 991px) {
+    .footer .footer-item {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer {
+        padding-top: 34px;
+        padding-bottom: 34px;
+    }
+
+    .footer .social-links a {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+/* End Footer */
