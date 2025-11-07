@@ -1131,3 +1131,135 @@ a {
 }
 
 /* End Testimonials */
+
+/* Start Contact */
+
+.contact {
+    padding: 60px 0;
+}
+
+.top-contact h2 {
+    text-transform: uppercase;
+    font-family: var(--FirstFont);
+    font-size: 13px;
+    color: var(--mainColor);
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 9999px;
+    background: #faefd2;
+    padding: 8px 20px;
+}
+
+.top-contact .headline {
+    display: block;
+    font-family: var(--therdFont);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--secondaryColor);
+    margin: 10px 0 50px 0;
+}
+
+.top-contact .word {
+    font-family: var(--therdFont);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--mainColor);
+}
+
+.contact .info {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 0;
+}
+
+.contact .card h3 {
+    font-family: var(--therdFont);
+    color: #433f39;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.contact .card p {
+    color: #8f8f8f;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.contact .contact-info {
+    align-items: flex-start;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.contact .contact-info i {
+    font-size: 24px;
+    color: var(--mainColor);
+    margin-right: 20px;
+}
+
+.contact .contact-info h4 {
+    font-family: var(--therdFont);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.contact .contact-info address,
+.contact .contact-info span {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #8f8f8f;
+}
+
+.contact hr {
+    width: 100%;
+    border: none;
+    border: 1px solid rgba(143, 143, 143, .8);
+}
+
+.contact .data {
+    padding: 0 10px;
+}
+
+.contact .data .form-control {
+    border: 1px solid #ddd;
+    font-size: 14px;
+    padding: 12px 14px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.contact .data input[type=text],
+.contact .data input[type=email] {
+    height: 48px;
+    padding: 10px 15px;
+}
+
+.contact .data textarea {
+    padding: 10px 12px;
+}
+
+.contact .data .form-control:focus {
+    border-color: var(--mainColor);
+    box-shadow: none;
+}
+
+.contact-btn {
+    background: var(--mainColor);
+    color: #fff;
+    border: 0;
+    padding: 12px 36px;
+    border-radius: 4px;
+    transition: .25s;
+}
+
+.contact-btn:hover {
+    background-color: #db9733;
+}
+
+/* End Contact */
